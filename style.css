@@ -84,7 +84,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   h1,
   h2,
   h3,
@@ -93,13 +93,12 @@ p {
   }
   h1 {
     font-size: 48px;
+    line-height: 1.5;
   }
   h2 {
     font-size: 32px;
   }
-  .project-photo {
-    display: none;
-  }
+
   .app-link {
     text-align: center;
     display: block;
