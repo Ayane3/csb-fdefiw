@@ -52,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   margin: 20px;
   border-radius: 4px;
@@ -85,22 +89,20 @@ p {
   text-decoration: underline;
 }
 @media (max-width: 576px) {
-  h1,
-  h2,
-  h3,
-  p {
-    text-align: center;
-  }
   h1 {
     font-size: 48px;
     line-height: 1.5;
   }
   h2 {
     font-size: 32px;
+    text-align: center;
   }
-
-  .app-link {
+  p {
+    text-align: center;
+  }
+  .project-link {
     text-align: center;
     display: block;
+    margin: 0 20px;
   }
 }
